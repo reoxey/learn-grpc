@@ -25,6 +25,4 @@ func main() {
 	if e := grpcOb.Serve(l); e != nil {
 		log.Fatalln(e)
 	}
-
-	log.Println("All is well")
 }
